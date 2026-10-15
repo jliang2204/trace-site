@@ -4,72 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0c1016">
-  <meta name="description" content="Meet Trace: free, ad-free game recording for Windows. Automatically record matches, find detected events, and trim your favorite moments. Currently in beta for Valorant and TFT.">
-  <title>Trace — Your game. On record.</title>
+  <meta name="description" content="Download Trace for Windows.">
+  <title>Trace</title>
   <link rel="icon" href="assets/trace.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="header wrap">
-    <a class="brand" href="#" aria-label="Trace home"><img src="assets/trace.svg" width="32" height="32" alt="">trace<span class="beta">BETA</span></a>
-    <nav aria-label="Main navigation"><a href="#experience">Experience</a><a href="#games">Games</a><a href="#questions">Questions</a></nav>
-    <a class="button small" href="https://trace-updates.trace-update-host.workers.dev/download">Download <span aria-hidden="true">↗</span></a>
-  </header>
-  <main id="main">
-    <section class="hero wrap">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> LESS OVERHEAD. MORE GAME.</p>
-        <h1>Your game.<br><span>On record.</span></h1>
-        <p class="intro">Play the match. Keep the moments.<br>Simple game recording, built around staying out of your way.</p>
-        <a class="button primary" href="https://trace-updates.trace-update-host.workers.dev/download"><svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M1 3 9 2v7H1zm10-1 8-1v8h-8zM1 11h8v7l-8-1zm10 0h8v8l-8-1z"/></svg>Download for Windows <span aria-hidden="true">↓</span></a>
-        <p class="download-note">Free beta · Windows 10/11, 64-bit</p>
-      </div>
-      <figure class="product">
-        <div class="window-top"><span class="mini-brand"><img src="assets/trace.svg" width="19" height="19" alt=""> Trace</span><span>Playback</span><span aria-hidden="true">− &nbsp; □ &nbsp; ×</span></div>
-        <div class="scene">
-          <svg viewBox="0 0 720 405" role="img" aria-label="Stylized arena illustration, showing an example recording timeline">
-            <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b8c6db"/><stop offset="1" stop-color="#e6cbb5"/></linearGradient><linearGradient id="floor" x2="0" y2="1"><stop stop-color="#746b6e"/><stop offset="1" stop-color="#363e4b"/></linearGradient></defs>
-            <path fill="url(#sky)" d="M0 0h720v405H0z"/><path fill="#708078" d="m355 127 80-34 87 39 198-65v184H320z"/>
-            <path fill="url(#floor)" d="M0 240h720v165H0z"/><path fill="#cec0a9" d="M0 0h196v251L0 356z"/><path fill="#9b9183" d="m196 0 98 72v168l-98 11z"/>
-            <path fill="#e7cfb1" d="M58 0h126v71H58z"/><path fill="#9a7868" d="M20 123h126v132L20 306z"/><path fill="#655b55" d="m37 140 91-1v91l-91 41z"/>
-            <path fill="#7b888d" d="m509 42 211-28v310l-211-97z"/><path fill="#b1b4af" d="m411 89 98-47v185l-98 19z"/><path fill="#52666d" d="m528 88 192-17v20l-192 12z"/>
-            <path fill="#293d40" d="M435 154h48v73l-48 11z"/><path fill="#8c7766" d="m299 246 58-19 53 26-63 22z"/><path fill="#b4a08c" d="m299 197 58-15v45l-58 19z"/><path fill="#6d6259" d="m357 182 53 23v48l-53-26z"/>
-            <path stroke="#b4b3ad" stroke-opacity=".2" fill="none" d="m0 405 328-156m392 156L386 246M35 341h605M182 292h346"/>
-            <path stroke="#def6ed" stroke-width="2" d="M353 202h5m8 0h5m-9-9v5m0 8v5"/>
-            <rect x="265" y="18" width="190" height="30" rx="6" fill="#17212a" fill-opacity=".75"/><text x="360" y="38" fill="#f1f4f9" text-anchor="middle" font-size="14" font-family="sans-serif">07 &nbsp;&nbsp;&nbsp; 0:42 &nbsp;&nbsp;&nbsp; 05</text>
-          </svg>
-          <span class="scene-label">YOUR MATCH. YOUR MOMENTS.</span>
-        </div>
-        <div class="player"><div class="player-heading"><span>Match recording</span><span class="muted">14:28 / 28:06</span></div>
-          <div class="timeline" aria-hidden="true"><span class="progress"></span><i class="event kill e1"></i><i class="event death e2"></i><i class="event kill e3"></i><i class="event kill e4"></i><i class="event death e5"></i><i class="playhead"></i></div>
-          <div class="player-footer"><span aria-hidden="true">▶ &nbsp; −3s &nbsp; +3s</span><span class="legend"><i class="dot green"></i> Kill <i class="dot red"></i> Death</span></div>
-        </div>
-        <figcaption>Illustrative playback view · event detection is currently in beta</figcaption>
-      </figure>
-    </section>
-    <div class="principles wrap"><span>Free to record.</span><span>No ads.</span><span>Your recordings stay on your PC.<sup>*</sup></span></div>
-    <section class="experience wrap section" id="experience">
-      <div class="section-heading"><p class="eyebrow">THE GOOD PART, WITHOUT THE BUSYWORK</p><h2>From a full match<br>to that one moment.</h2><p>A recorder for playing games.<br>No streaming studio to set up.</p></div>
-      <div class="steps">
-        <article><span class="step-number">01 / RECORD</span><h3>Let the match start it.</h3><p>Enable automatic recording for supported games. Trace detects matches and starts and stops capture for you. Manual recording is there when you need it.</p></article>
-        <article><span class="step-number">02 / FIND</span><h3>Skip to the action.</h3><p>Navigate detected kills and deaths in Valorant, or round markers in TFT. Go straight to a moment instead of scrubbing through the whole match.</p></article>
-        <article><span class="step-number">03 / KEEP</span><h3>Save the part that matters.</h3><p>Watch in the built-in player, trim a clip, and keep your library under control with a storage limit that clears the oldest recordings.</p></article>
-      </div>
-    </section>
-    <section class="games wrap section" id="games">
-      <div><p class="eyebrow">STARTING WITH THE GAMES YOU PLAY</p><h2>Two games.<br>One quiet recorder.</h2><p class="section-copy">Trace is an early beta. Detection and capture are being refined across different PCs, display modes, and game updates.</p></div>
-      <div class="game-list"><article><span class="game-number">01</span><div><h3>VALORANT</h3><p>Automatic recording · kill &amp; death markers · match results</p></div><span class="tag">BETA</span></article><article><span class="game-number">02</span><div><h3>Teamfight Tactics</h3><p>Automatic recording · round markers</p></div><span class="tag">BETA</span></article><p class="fine-print">Detected events can be missed or misclassified. Performance depends on your hardware and recording settings.</p></div>
-    </section>
-    <section class="questions wrap section" id="questions"><div><p class="eyebrow">A FEW THINGS TO KNOW</p><h2>Keep it simple.</h2></div><div class="faq">
-      <details><summary>Is Trace free?</summary><p>Yes. The current beta is free and ad-free, including recording, playback, event navigation, and clipping.</p></details>
-      <details><summary>Does Trace upload my recordings?</summary><p id="privacy">Recordings are stored on your PC. Optional training-clip sharing requires an invite key and your opt-in; it automatically uploads selected short, audio-free clips. Clips may contain player names and chat. Diagnostic reports are uploaded only when you request it.</p></details>
-      <details><summary>What do I need to run it?</summary><p>A 64-bit Windows 10 or 11 PC. Capture and hardware encoding compatibility can vary by graphics card and driver. This beta is still being tested across hardware configurations; macOS and Linux are not supported.</p></details>
-      <details><summary>How do updates work?</summary><p>Trace checks for updates and shows an in-app banner. Select Update now to download and restart. An active recording is protected. If an older version is stuck waiting to update, use this page to download the latest installer directly.</p></details>
-      <details><summary>Why might Windows show a warning?</summary><p>The beta installer is not yet code-signed with a Windows publisher certificate, so Windows may show an unrecognized-app warning. Only download Trace from this page or its linked Trace update host.</p></details>
-    </div></section>
-    <section class="closing wrap"><div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Play now. Look back later.</h2></div><div><a class="button primary" href="https://trace-updates.trace-update-host.workers.dev/download">Get Trace for Windows <span aria-hidden="true">↓</span></a><p class="download-note">Latest beta · Free download</p></div></section>
+  <main>
+    <img class="logo" src="assets/trace.svg" width="76" height="76" alt="">
+    <h1>trace</h1>
+    <a class="download" href="https://trace-updates.trace-update-host.workers.dev/download">Download for Windows</a>
   </main>
-  <footer class="wrap"><a class="brand" href="#"><img src="assets/trace.svg" width="25" height="25" alt="">trace</a><p>Made for the match.</p><a href="#questions">Privacy &amp; questions</a><p class="footer-note">* Optional clip sharing is off until you opt in. Trace is an independent project, not affiliated with Riot Games. VALORANT and Teamfight Tactics are trademarks of Riot Games.</p></footer>
 </body>
 </html>
